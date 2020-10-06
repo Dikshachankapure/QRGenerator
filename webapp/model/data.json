@@ -1,0 +1,21 @@
+{
+ "ProductId": "PR-101",
+ "ProductName": "Product test name",
+ "ProductDes": "Product test description",
+ "compDets": [{
+  "compName": "Test Company1",
+  "compCode": "CMP1"
+ }, {
+  "compName": "Test Company2",
+  "compCode": "CMP2"
+ }, {
+  "compName": "Test Company3",
+  "compCode": "CMP3"
+ }, {
+  "compName": "Test Company4",
+  "compCode": "CMP4"
+ }, {
+  "compName": "Test Company5",
+  "compCode": "CMP5"
+ }]
+}

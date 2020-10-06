@@ -1,0 +1,39 @@
+<mvc:View controllerName="poc.controller.Main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<f:SimpleForm editable="true" layout="ResponsiveGridLayout" labelSpanXL="3" labelSpanL="3" labelSpanM="3" labelSpanS="12"
+						adjustLabelSpan="false" emptySpanXL="4" emptySpanL="4" emptySpanM="4" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1"
+						singleContainerFullSize="false">
+						<f:content >
+							<Label text="Product Id"/>
+							<Input id="ProductId" value="{/ProductId}"/>
+							<Label text="Product Name"/>
+							<Input value="{/ProductName}" id="ProductName"/>
+							<Label text="Product Description"/>
+							<TextArea value="{/ProductDes}" rows="3" id="ProductDesc"/>
+							<Label text="Company Name"/>
+							<Select selectedKey="CMP4" items="{/compDets}" id="cmpId">
+								<core:Item text="{compName}" key="{compCode}"/>
+							</Select>
+							<Button icon="sap-icon://generate-shortcut" text="Generate QR Code" type="Accept" press="handleGenerateQRCode">
+								
+							</Button>
+							<Label text="Result"/>
+							<Image densityAware="false" id="imgId">
+							<layoutData>
+								<FlexItemData growFactor="1"/>
+							</layoutData>
+						</Image>
+						</f:content>
+					</f:SimpleForm>
+					<HBox>
+						
+					</HBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

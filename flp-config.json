@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "poc.QRGenerater",
+        "description": "QR Code Generator",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/webapp",
+        "appUrl": "#QRGenerater-Display",
+        "navigationComponentName": "poc",
+        "intentSemanticObject": "QRGenerater",
+        "intentAction": "Display",
+        "html5ApplicationName": "qrgenerater",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "46fe9fa0-afdb-4221-8712-fec85d1e8400-1555043785238"
+        ],
+        "contentPackages": [
+            "37e7742e-74da-42e1-878f-a6514a2ab3c4-1555043729371"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "QR Code Generator",
+        "subtitle": "Innovation",
+        "searchKeywords": "QR Code Generator,Innovation",
+        "displayIconUrl": "sap-icon://bar-code",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
